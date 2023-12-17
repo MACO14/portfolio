@@ -1,0 +1,528 @@
+<!--PERSONAL PORTFOLIO
+NAME: MACKENZIE LUBBEN-ORTIZ
+DATE: 12/01/2023
+DESCRIPTION: RESUME-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/personal portfolio/resume.css">
+  <style>
+
+    body {
+        background: white;
+        width: 21cm;
+        height: 29.7cm;
+        margin: 0 auto;
+    }
+
+    page {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        position: relative;
+    }
+
+    page[size="A4"] {
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    @page {
+        size: 21cm 29.7cm;
+        margin: 0mm;
+    }
+  </style>
+</head>
+<body>
+
+    <body>
+        <!-- First Section -->
+        <div class="header-banner">
+            <img src="">
+    
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Mackenzie Ortiz</div>
+    
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links"></ul>
+    
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/personal portfolio/index.html">HOME</a></li>
+                <li><a href="/personal portfolio/about.html">ABOUT</a></li>
+                <li><a href="/personal portfolio/projects.html">PROJECTS</a></li>
+                <li><a href="/personal portfolio/resume2.html">RESUME</a></li>
+                <li><a href="/personal portfolio/diagrams.html">DIAGRAMS</a></li>
+                <li><a href="/personal portfolio/api.html">API UNITS</a></li>
+                <li><a href="/personal portfolio/quicklinks.html">QUICK LINKS</a></li>
+    
+                </li>
+            </div>
+    </div>
+
+    <div class="container">
+        <button id="pdfButton"><b>Click here to Generate PDF</b></button>
+        <div class="card" id="generatePDF">
+            <script>
+                var button = document.getElementById("pdfButton");
+                var makepdf = document.getElementById("generatePDF");
+                button.addEventListener("click", function () {
+                   var mywindow = window.open("", "PRINT", "height=600,width=600");
+                   mywindow.document.write(makepdf.innerHTML);
+                   mywindow.document.close();
+                   mywindow.focus();
+                   mywindow.print();
+                   return true;
+                });
+             </script>
+
+  <page size="A4">
+    <div class="container">
+      <div class="leftPanel">
+        <img src="/personal portfolio/images/IMG_3101.jpg"/>
+        <div class="details">
+          <div class="item bottomLineSeparator">
+            <h2>
+              CONTACT
+            </h2>
+            <div class="smallText">
+              <p>
+                <i class="fa fa-phone contactIcon" aria-hidden="true"></i>
+                (404) 663 7545
+              </p>
+              <p>
+                <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                <a href="mailto:mlubben1@gmail.com">
+                  mlubben1@gmail.com
+                </a>
+              </p>
+              <p>
+                <i class="fa fa-map-marker contactIcon" aria-hidden="true"></i>
+                Orlando, USA
+              </p>
+              <p>
+                <i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/mackenzieortiz/">
+                  LinkedIn
+                </a>
+              </p>
+              <p class="lastParagrafNoMarginBottom">
+                <i class="fa fa-instagram contactIcon" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/mackenzieortizphoto_/">
+                  Instagram
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="item bottomLineSeparator">
+            <h2>
+              SKILLS
+            </h2>
+            <div class="smallText">
+              <div class="skill">
+                <div>
+                  <span>Graphic Design</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">5+</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Marketing</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">6+</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Photography</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">8</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Web Development</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">1</span>
+                  <span class="alignleft">year</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Social Media</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">2</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Photoshop</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">6+</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Word</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span class="alignright">10+</span>
+                  <span class="alignleft">years</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Adobe Suites</span>
+                </div>
+                <div class="yearsOfExperience">
+                    <span class="alignright">5+</span>
+                    <span class="alignleft">year</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div>
+                  <span>Excel</span>
+                </div>
+                <div class="yearsOfExperience">
+                  <span>10+ years</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="item">
+            <h2>
+              EDUCATION
+            </h2>
+            <div class="smallText">
+              <p class="bolded white">
+                BS in Communications
+              </p>
+              <p>
+               Kennesaw State University
+              </p>
+              <p>
+                2012 - 2016
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="rightPanel">
+        <div>
+          <h1>
+            Mackenzie Ortiz
+          </h1>
+          <div class="smallText">
+            <h3>
+             Creative Entrepreneur
+            </h3>
+          </div>
+        </div>
+        <div>
+          <h2>
+            About Me
+          </h2>
+          <div class="smallText">
+            <p>
+             Creative entrepreneur eager to learn, grow and build connections within the creative industry. Business owner with extensive experience in marketing, social media, photography, brand management, graphic design, and web development.
+            </p>
+          </div>
+        </div>
+        <div class="workExperience">
+          <h2>
+            WORK EXPERIENCE
+          </h2>
+          <ul>
+            <li>
+              <div class="jobPosition">
+                <span class="bolded">
+                  PhotoPass Photographer
+                </span>
+                <span>
+                  Apr 2023 - Present
+                </span>
+              </div>
+              <div class="projectName bolded">
+                <span>
+                  Walt Disney World Parks & Resorts | Disney's Hollywood Studios
+                </span>
+              </div>
+              <div class="smallText">
+                <p>
+                  Photographs beautiful images while Creating Magic for Guests while using themed language. 
+                </p>
+                <ul>
+                  <li>
+                   Engages with Guests to ensure best possible Customer Experience. Holoscan trained in Star Wars: Galaxy's Edge
+                  </li>
+                </ul>
+                <p>
+                  <span class="bolded">Skills: </span>Photography, Customer Service
+                </p>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="jobPosition">
+                <span class="bolded">
+                  Asia Operations
+                </span>
+                <span>
+                  May 2022 - Apr 2023
+                </span>
+              </div>
+              <div class="projectName bolded">
+                <span>
+                 Walt Disney World Parks & Resort | Disney's Animal Kingdom
+                </span>
+              </div>
+              <div class="smallText">
+                <p>
+                 Operated attractions in safety-critical manner to ensure Guest safety and fun on attaction. 
+                </p>
+                <ul>
+                  <li>
+                    <p>
+                     Using Disney's Safety Key, provided
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      
+                  </li>
+                </ul>
+                <p>
+                  <span class="bolded">Skills: </span> Writing, Photoshop
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="jobPosition">
+                <span class="bolded">
+                    Content Creator and Social Media Coordinator
+                </span>
+                <span>
+                    May 2021 - May 2022
+                </span>
+              </div>
+              <div class="projectName bolded">
+                <span>
+                    Land of a Thousand Hills Coffee Co.
+                </span>
+              </div>
+              <div class="smallText">
+                <p>
+                  Inspired and managed creative content for local coffee shop based in Atlanta, GA. Established assets for social platforms, tracked performance and grew following to 10k. 
+                </p>
+  
+                <ul>
+                  <li>
+                    <p>
+                        Coordinated a content calendar for all platforms, scheduled posts and created consistent content for each. 
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Created graphic visuals, ads, marketing resources to promote the company and market current sales or offerings.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                     Photographed content for the cafe such as promotional coffee bags, campaign offerings, pastry selections, etc.
+                    </p>
+                  </li>
+                </ul>
+                <p>
+                  <span class="bolded">Skills: </span>Social Media Management, Marketing, Photography
+                </p>
+              </div>
+            </li>
+
+            <li>
+                <div class="jobPosition">
+                  <span class="bolded">
+                    Owner, Founder of Mackenzie Ortiz Photography
+                  </span>
+                  <span>
+                    May 2016 - Present
+                  </span>
+                </div>
+                <div class="projectName bolded">
+                  <span>
+                    Mackenzie Ortiz Photography
+                  </span>
+                </div>
+                <div class="smallText">
+                  <p>
+                   Created, manages and operates photography business. Includes social media marketing, sales and ads, photographing, designing promotional graphics, bookkeeping, etc. 
+                  </p>
+    
+                  <ul>
+                    <li>
+                      <p>
+                          Built and establishes branding content, website, social media platforms, blog, etc.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Manages and maintains brand loyalty, client base, customer satisfaction, planning and scheduling sessions, accounting, etc.
+                    </li>
+                    <li>
+                      <p>
+                       Photographs beautiful images for couples in weddings, engagements, family sessions and more. 
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    <span class="bolded">Skills: </span>Brand Management, Marketing, Photography, Social Media
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="jobPosition">
+                  <span class="bolded">
+                    Communications Director
+                  </span>
+                  <span>
+                    July 2019 - December 2019
+                  </span>
+                </div>
+                <div class="projectName bolded">
+                  <span>
+                    Vinings Church
+                  </span>
+                </div>
+                <div class="smallText">
+                  <p>
+                   Managed and maintained church brand through social media management and marketing efforts. Handled all promotional campaigns and marketing resources associated.
+                  </p>
+    
+                  <ul>
+                    <li>
+                      <p>
+                          Built and establishes branding content, website, social media platforms, blog, etc. Designed and created graphics for marketing purposes using Adobe Suites.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Managed all social platforms and created content calendar with all upcoming news/events.
+                    </li>
+                    <li>
+                      <p>
+                        Marketed church events, announcements, upcoming gatherings via created visual marketing.
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    <span class="bolded">Skills: </span>Marketing, Graphic Design, Social Media
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="jobPosition">
+                  <span class="bolded">
+                    Marketing/Communications Coordinator
+                  </span>
+                  <span>
+                    March 2017 - Sep 2018
+                  </span>
+                </div>
+                <div class="projectName bolded">
+                  <span>
+                    Cobb Chamber of Commerce
+                  </span>
+                </div>
+                <div class="smallText">
+                  <p>
+                   Managed all Chamber related marketing platforms, efforts, resources and campaigns. Spearheaded marketing for multiple county-wide campaigns and created supporting graphics, visuals and promotional materials.
+                  </p>
+    
+                  <ul>
+                    <li>
+                      <p>
+                        Developed and managed social media accounts for all platforms including Cobb County community blog.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented marketing strategies to engage members in corporate events and upcoming media events.
+                    </li>
+                    <li>
+                      <p>
+                        Along with the Director of Communications, wrote and executed press releases weekly to inform members of ongoings in the county.
+                      </p>
+                    </li>
+                  </ul>
+                  <p>
+                    <span class="bolded">Skills: </span>Marketing, Community Outreach, Social Media Management
+                  </p>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </page>
+  <page size="A4">
+    <div class="container">
+      <div class="leftPanel">
+      </div>
+      <div class="rightPanel">
+      </div>
+  </page>
+  
+   <!-- FOOTER -->
+   <div class="footer">
+    <p>2023 Mackenzie Ortiz</p>
+  <style>
+    .footer {
+      position:fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #a78262;
+      color: white;
+      text-align:center;
+      font-family: 'Karla';
+      font-size: 14px;
+    }
+  </style>
+  </div>
+  </div>
+  
+</body>
+</html>
